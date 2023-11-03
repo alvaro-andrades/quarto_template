@@ -1,0 +1,35 @@
+---
+title: ""
+author: "Alvaro Andrades"
+editor: visual
+date: today
+editor_options: 
+  chunk_output_type: console
+format: 
+  html: 
+    toc: true
+    embed-resources: true
+    code-fold: true
+    df-print: paged
+---
+
+# Introduction 
+
+# Methods
+
+```{r setup}
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggpubr)
+
+```
+
+# Session information
+
+```{r}
+sessionInfo()
+```
+
